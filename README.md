@@ -6,4 +6,4 @@ This code means to showcase workflow specific to technical analysis:
 To ilustrate the functionality I'm using a jupyter notebook and dummy data (daily OHLC for two instruments - EURUSD currency pair, and Apple stock)
 
 ### Disclaimer
-This project is for education purpose and does not represent financial advice.
+This project is for education purpose and does not represent financial advice, nor should it be used in trading.
