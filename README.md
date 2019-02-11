@@ -1,6 +1,6 @@
 ## A python code for creating candlestick charts with range slider using bokeh
 
-<img src="images/screenshot1.png" height=500>
+<img src="./images/screenshot1.png" height=500>
 
 This code is meant to showcase part of workflow specific to technical analysis:
 * connecting to a sql database to extract price data for a specific trading instrument, and
