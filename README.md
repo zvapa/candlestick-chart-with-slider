@@ -12,10 +12,11 @@ For illustration I'm using daily OHLC price data for two instruments (EURUSD cur
 Required dependencies:
 * `bokeh`
 * `pandas`
-* `sqlite3`
 
-With `pipenv`:
-* run `pip install pipenv` to install `pipenv`
+To use with `pipenv`, run: 
+* `pip install pipenv` to install `pipenv`
+* `pipenv install` to install dependencies
+* `bokeh serve --show plotting.py` to open in browser
 
 ### Disclaimer:
 This project is for education purpose and does not represent financial advice, nor should it be used in trading applications.
