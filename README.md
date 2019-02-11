@@ -2,7 +2,7 @@
 
 <img src="./images/demo.gif" height=300>
 
-This code is meant to showcase part of workflow specific to technical analysis:
+This code is meant to showcase a part of the workflow specific to technical analysis:
 * connecting to a sql database to extract price data for a specific trading instrument, and
 * plotting a candlestick chart with a range slider and a tooltip for detailed price info
 
@@ -13,6 +13,7 @@ Required dependencies:
 * `bokeh`
 * `pandas`
 * `sqlite3`
+
 With `pipenv`:
 * run `pip install pipenv` to install `pipenv`
 
