@@ -2,11 +2,11 @@
 
 <img src="./images/demo.gif" height=300>
 
-This code is meant to showcase a part of the workflow specific to technical analysis:
+This code snippet simulates parts of the workflow used in technical analysis:
 * connecting to a sql database to extract price data for a specific trading instrument, and
 * plotting a candlestick chart with a range slider and a tooltip for detailed price info
 
-For illustration I'm using daily OHLC price data for two instruments (EURUSD currency pair, and Apple stock) stored in a sqlite database. Each instrument represents a table in the db. The script can easily be adopted to plot from csv files, assuming they contain the columns `date`, `open`, `high`, `low` & `close`.
+For illustration, I'm using daily OHLC price data for two instruments (EURUSD currency pair, and Apple stock) stored in a sqlite database, where each instrument represents a table. The script can easily be adopted to plot from csv files, assuming they contain the columns `date`, `open`, `high`, `low` & `close`.
 
 ### Usage:
 Required dependencies:
