@@ -1,17 +1,17 @@
 import pandas as pd
-from db_connection import DBConnection
 
 
-def get_df(instrument):
+def get_df_from_table(instrument, db_connection):
     """Given an instrument, returns a pandas dataframe from the relevant table in the database."""
-    db = DBConnection(instrument)
 
     query = f"""
         SELECT *
-        FROM {db.table}
+        FROM {instrument}
     """
-    return pd.read_sql(query, db.connection)
+
+    return pd.read_sql(query, db_connection)
 
 
 def add_bar_counter(df):
+    """Adds a 'bar' count column based on the index which is automatically generating when querying the db."""
     df['bar'] = df.index

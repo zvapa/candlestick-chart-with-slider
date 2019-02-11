@@ -4,7 +4,15 @@ This code is meant to showcase part of workflow specific to technical analysis:
 * plotting a candlestick chart with a range slider and a tooltip for detailed price info
 
 To ilustrate the functionality I'm using a jupyter notebook and daily OHLC price data for two instruments 
-(EURUSD currency pair, and Apple stock) stored in a sqlite database. Each instrument represents a table in the db.
+(EURUSD currency pair, and the Apple stock) stored in a sqlite database. Each instrument represents a table in the db.
 
-### Disclaimer
+### Usage:
+The script can easily be adopted to plot from csv files, assuming they contain the columns `date`, `open`, `high`,
+ `low`, `close`.
+
+Required dependencies:
+* 
+
+
+### Disclaimer:
 This project is for education purpose and does not represent financial advice, nor should it be used in trading applications.
